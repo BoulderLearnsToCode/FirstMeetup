@@ -1,0 +1,76 @@
+body{
+	font-family: georgia;
+	background: #0fcda1;
+}
+.head{
+	text-align: center;
+}
+/*Horizontal line*/
+hr{
+	border: solid black;
+}
+h2{
+	font-family: 'Orbitron', sans-serif;
+}
+img{
+	width: 80%;
+}
+h1{
+	font-family: Arial;
+}
+/*Hover feature*/
+a:hover{
+	color:blue;
+	/*takes away underline*/
+	text-decoration: none;
+	font-size: 50px;
+}
+div.example{
+	font-size: 30px;
+}
+.class{
+	color: red;
+}
+div.photo:hover{
+	min-height: 50%;
+	background-repeat: no-repeat;
+	font-size: 40px;
+	background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQ2_z6k8-GJxJT3gACYOwqd7uhrhZU3IO2bIe0IwpYuISZtz7M");
+	width: 300px;
+}
+.command{
+	color: white;
+}
+#id{
+	color: yellow;
+}
+.heading{
+	color: white;
+	font-size: 25px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#container{
+	max-width: 968px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section.left{
+	width: 45%;
+	float: left;
+}
+section.right{
+	width: 45%;
+	float: right;
+	background-image: url();
+}
+/*remove bullet points*/
+section.right ul{
+	list-style-type: none;
+}
+table{
+	font-size: 25px;
+}
+td{
+	padding-left: 5px;
+}
